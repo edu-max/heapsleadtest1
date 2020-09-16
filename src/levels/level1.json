@@ -1,0 +1,178 @@
+{
+	"__header__": {
+		"fileType": "LEd Project JSON",
+		"app": "LEd",
+		"appAuthor": "Sebastien Benard",
+		"appVersion": "0.1.5-alpha",
+		"url": "https://deepnight.net/"
+	},
+	"name": "MyLevels",
+	"jsonVersion": 1,
+	"defaultPivotX": 0.0,
+	"defaultPivotY": 0.0,
+	"defaultGridSize": 16,
+	"bgColor": "#7F8093",
+	"nextUid": 6,
+	"minifyJson": false,
+	"defs": {
+		"layers": [
+			{
+				"identifier": "Layer1",
+				"type": "Tiles",
+				"uid": 1,
+				"gridSize": 16,
+				"displayOpacity": 1.0,
+				"intGridValues": [ { "identifier": null, "color": "#000000" } ],
+				"autoTilesetDefUid": null,
+				"rules": [],
+				"tilesetDefUid": 2,
+				"tilePivotX": 0,
+				"tilePivotY": 0
+			},
+			{
+				"identifier": "Entities1",
+				"type": "Entities",
+				"uid": 4,
+				"gridSize": 16,
+				"displayOpacity": 1.0,
+				"intGridValues": [ { "identifier": null, "color": "#000000" } ],
+				"autoTilesetDefUid": null,
+				"rules": [],
+				"tilesetDefUid": null,
+				"tilePivotX": 0,
+				"tilePivotY": 0
+			}
+		],
+		"entities": [
+			{
+				"identifier": "Hero",
+				"uid": 3,
+				"width": 16,
+				"height": 16,
+				"color": "#94D9B3",
+				"renderMode": "Rectangle",
+				"tilesetId": null,
+				"tileId": null,
+				"maxPerLevel": 1,
+				"discardExcess": true,
+				"pivotX": 0.0,
+				"pivotY": 0.0,
+				"fieldDefs": [
+					{
+						"identifier": "NewField5",
+						"__type": "Color",
+						"uid": 5,
+						"type": "F_Color",
+						"canBeNull": false,
+						"editorDisplayMode": "Hidden",
+						"editorDisplayPos": "Above",
+						"min": null,
+						"max": null,
+						"defaultOverride": { "id": "V_Int", "params": [ 16711680 ] }
+					}
+				]
+			}
+		],
+		"tilesets": [
+			{
+				"identifier": "Level1_tiles",
+				"uid": 2,
+				"relPath": "level1_tiles.png",
+				"pxWid": 320,
+				"pxHei": 96,
+				"tileGridSize": 16,
+				"tileGridSpacing": 0,
+				"savedSelections": []
+			}
+		],
+		"enums": [],
+		"externalEnums": []
+	},
+	"levels": [ {
+		"identifier": "Level1",
+		"uid": 0,
+		"pxWid": 256,
+		"pxHei": 256,
+		"layerInstances": [
+			{
+				"__identifier": "Layer1",
+				"__type": "Tiles",
+				"__cWid": 16,
+				"__cHei": 16,
+				"__gridSize": 16,
+				"levelId": 0,
+				"layerDefUid": 1,
+				"pxOffsetX": 0,
+				"pxOffsetY": 0,
+				"intGrid": [],
+				"autoTiles": [],
+				"gridTiles": [
+					{ "coordId": 76, "v": 40 },
+					{ "coordId": 77, "v": 41 },
+					{ "coordId": 78, "v": 42 },
+					{ "coordId": 79, "v": 0 },
+					{ "coordId": 92, "v": 40 },
+					{ "coordId": 93, "v": 41 },
+					{ "coordId": 94, "v": 42 },
+					{ "coordId": 95, "v": 0 },
+					{ "coordId": 105, "v": 1 },
+					{ "coordId": 106, "v": 2 },
+					{ "coordId": 107, "v": 3 },
+					{ "coordId": 108, "v": 40 },
+					{ "coordId": 109, "v": 41 },
+					{ "coordId": 110, "v": 42 },
+					{ "coordId": 121, "v": 21 },
+					{ "coordId": 122, "v": 22 },
+					{ "coordId": 123, "v": 23 },
+					{ "coordId": 124, "v": 40 },
+					{ "coordId": 125, "v": 41 },
+					{ "coordId": 126, "v": 42 },
+					{ "coordId": 129, "v": 2 },
+					{ "coordId": 130, "v": 2 },
+					{ "coordId": 131, "v": 2 },
+					{ "coordId": 132, "v": 2 },
+					{ "coordId": 133, "v": 2 },
+					{ "coordId": 134, "v": 2 },
+					{ "coordId": 135, "v": 2 },
+					{ "coordId": 136, "v": 2 },
+					{ "coordId": 137, "v": 2 },
+					{ "coordId": 138, "v": 2 },
+					{ "coordId": 139, "v": 2 },
+					{ "coordId": 140, "v": 2 },
+					{ "coordId": 141, "v": 2 },
+					{ "coordId": 142, "v": 2 },
+					{ "coordId": 145, "v": 21 },
+					{ "coordId": 146, "v": 22 },
+					{ "coordId": 147, "v": 22 },
+					{ "coordId": 148, "v": 22 },
+					{ "coordId": 149, "v": 22 },
+					{ "coordId": 150, "v": 22 },
+					{ "coordId": 151, "v": 22 },
+					{ "coordId": 152, "v": 22 },
+					{ "coordId": 153, "v": 22 },
+					{ "coordId": 154, "v": 22 },
+					{ "coordId": 155, "v": 22 },
+					{ "coordId": 156, "v": 22 },
+					{ "coordId": 157, "v": 22 },
+					{ "coordId": 158, "v": 23 }
+				],
+				"entityInstances": []
+			},
+			{
+				"__identifier": "Entities1",
+				"__type": "Entities",
+				"__cWid": 16,
+				"__cHei": 16,
+				"__gridSize": 16,
+				"levelId": 0,
+				"layerDefUid": 4,
+				"pxOffsetX": 0,
+				"pxOffsetY": 0,
+				"intGrid": [],
+				"autoTiles": [],
+				"gridTiles": [],
+				"entityInstances": [ { "__identifier": "Hero", "__cx": 2, "__cy": 7, "defUid": 3, "x": 32, "y": 112, "fieldInstances": [ { "__identifier": "NewField5", "__value": "#FF0000", "__type": "Color", "defUid": 5, "realEditorValue": null } ] } ]
+			}
+		]
+	} ]
+}
